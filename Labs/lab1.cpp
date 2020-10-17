@@ -98,4 +98,3 @@ void lab1()
 	} while (FinProg == 2);
 
 }
-
