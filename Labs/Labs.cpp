@@ -3,15 +3,20 @@
 #include "helper.h"
 #include "lab1.h"
 #include "lab2.h"
+#include "lab3.h"
 
 int main()
 {
+	lab3();
+
+	return 0;
+
 	int a = 1;
 
 	while (a != 0)
 	{
 		printf("Laboratory tasks:\n");
-		printf("1. Laboratory task #1 \n");
+		printf("1 - Laboratory task #1 \n2 - Laboratory task #2\n");
 		printf("0 - exit\n");
 
 		bool res = readIntValue("Choose the number of laboratory task ", a);

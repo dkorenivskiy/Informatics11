@@ -9,7 +9,6 @@ void lab2()
 
 	do
 	{
-
 		printf("*************************************\n");
 		printf("LABORATORY TASK NUMBER 2\n");
 		int b;
