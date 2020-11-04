@@ -1,6 +1,10 @@
-﻿#include <stdio.h>
+﻿#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
 #include <cstdlib>
 #include <ctime>
+
+#include "lab3.h"
 
 void Static()
 {
@@ -28,7 +32,7 @@ void Static()
 		}
 	}
 	printf("Min element = %d\n", min);
-	printf("His index = %d", index);
+	printf("His index = %d\n", index);
 }
 
 void Dynamic()
@@ -63,14 +67,14 @@ void Dynamic()
 	}
 
 	printf("Min element = %d\n", min);
-	printf("His index = %d", index);
+	printf("His index = %d\n", index);
 	free(pC);
 }
 
 void lab3()
 {
 	int choise;
-	printf("Dynamic massif - 1\n Static - 2\n");
+	printf("Dynamic massif - 1\nStatic - 2\n");
 	int _ = scanf("%d", &choise);
 	switch (choise)
 	{
@@ -81,7 +85,7 @@ void lab3()
 		Static();
 		break;
 	default:
-		printf("Error");
+		printf("Error\n");
 		break;
 	}
 }
