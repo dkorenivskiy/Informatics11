@@ -33,6 +33,9 @@ int main()
 			case 2:
 				lab2();
 				break;
+			case 3:
+				lab3();
+				break;
 			default:
 				if (a < 10 && a > 0)
 				{
